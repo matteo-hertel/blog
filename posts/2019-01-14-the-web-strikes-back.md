@@ -11,6 +11,16 @@ WebComponents are one of the few technologies that I love and I want to see succ
 
 ## Why? What problem do they solve?
 
+I am not capable to a proper introduction to WebComponents, so I'll focus on why use them and what problem do they solve, which is, if you think about it, the reason why any piece of tech exists, to solve a given problem. 
+
+I worked in small and huge companies and one recurring problem is distributed frontend, if you are working in an application that has multiple components let's for argument sake say Header, MainContent, SecondaryContent and Footer, how do you make independent changes to those components, potentially itearate over different ideas, approaches, versions, run A/B testing without the whole process be a massive pain for everybody and manageable at scale? I can tell you that is one big problem where there is not a solution that fits all the usecases.
+
+There are tons of solutions out there, one of the best solutions I had the pleasure of working with is [Open Components](https://github.com/opencomponents/oc) (please check it out, it's an amazing project and I had the pleasure to meet some of the folks working on it, lovely people!) but event that is not 100% quite there in my opinion, global styling, components communication, code reuse, version management are still a problem (beware: comparing OCs to WebComponents is like comparing apples and oranges as they are just different in concept, mine is just an example).
+
+> Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps. -MDN
+
+I'd like to emphasise the `with their functionality encapsulated away from the rest of your code` which is exaclty the best thing about WebComponents, leveraging the ShadowDom everything is encapsluated away, that means componetns can be used in isolation and if you have a decend enough logic that handles what version to load in your page, the side effects are almost 0, last but not least, they are fully leaveraging the platform and act as native components, so there is no overhead logic like most of the mainstream framework have to make it behave the way a developer is expecting, and speaking of mainstream frameworks, they, in the end, render HTML, so why not use HTML directly?
+
 ## History
 ⚠️  Boring stuff ahead about my experience and past mistakes
 
@@ -56,7 +66,7 @@ Of course something as good as WebComponents cannot fail because of any given fr
 
 ### Frameworks
 
-In no particular order I'll list here some of the framework I checked out for my blog project:
+In no particular order I'll list here some of the framework I checked out for my blog project(⚠ this is not a comprehensive list at all, only what I personally used):
 
 - **Polymer 3.x** 
 
@@ -70,9 +80,12 @@ In no particular order I'll list here some of the framework I checked out for my
   Stencil developed by the Ionic team is truly awesome, it's a compiler for generating WebComponents that uses all the nice features the modern JS world has to offer: TypeScript, JSX, WebPack integration and more, and the best thing about it is: it has lazy loading built in so you can have a massive library of components but only what's used in the page will be loaded!
 
 ### So what do I use then?
-The answer is simple, all the above 😁! With a simple PoC I've created, I was able to load different WebComponents from differnt vendors and they are all playing nicely together, when I pushed the limit of my PoC I had Polymer, Stencil and Aframe compoents running in a single page and they were all working properly!
+The answer is simple, all the above 😁! With a simple PoC I've created, I was able to load different WebComponents from differnt vendors and they are all playing nicely together, when I pushed the limit of my PoC I had Polymer, Stencil and Aframe compoents running in a single page and they were all working properly! At the moment the PoC is on my sandbox repo, I'll polish it up and create its own repo at some point.
 As a personal choice for new and bespoke components, I'm using Stencil, having TypeScript support is very nice and I don't have to worry about loading too many components on a given page as it's all sorted for me, but if there is an existing component that I want to use it's a a simple `npm install` away.
 
+### But my chosen framework is {insert here mainstream framework}!
+
+Everybody has a preffered way to do things, framework, tech stack in general, but as you remember from the first section of this post, all the framework, and I repeat *ALL* of them in the end render HTML, this is what the browser undestrands, there is no other way (excluding WebGL) to render something on screen, so WebComponents can be easily integrated with any given framework
 
 ## Conclusion
 
