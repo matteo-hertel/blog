@@ -1,7 +1,15 @@
 ---
 date: "2010-01-14"
-description: "The Web Strikes Back"
-title: "The Web Strikes Back"
+title: "The Web Strikes Back: Web Components"
+description: "An opinionated article about WebComponents and related frameworks, my personal history, the future ahead and a bunch of useful info in case you're interted in checking WebComponents out"
+image: https://res.cloudinary.com/mhdev/image/upload/v1547330779/blog/defaultImages/covers/7.jpg
+tags : [
+    "WebComponents",
+    "Opinions"
+]
+categories : [
+    "Projects",
+]
 ---
 
 I managed to find a Star Wars related title for my second post, this alone should be enough to keep you reading the whole article 😁.
