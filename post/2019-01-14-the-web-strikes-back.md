@@ -100,4 +100,4 @@ Everybody has a preffered way to do things, framework, tech stack in general, bu
 
 In a world where mostly everything is React and distrubuted front end is a big problem to solve, WebComponents can make the difference, the road to get to the support we have today was not easy but the current scene is truly amazing and I encourage you to give it a try.
 
-Until next time, like subscribe and click on the bell icon to receive notifications.
+Until next time, have a good one.
