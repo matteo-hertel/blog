@@ -50,14 +50,16 @@ As promised in my [first post]({{< ref "/post/2018-12-31-a-new-hope.md" >}}) I'l
 
 And then I'll add one feature at the time and write about it, the rough plan is:
 
-    - PWA
-    - Search
-    - Testing, visual testing, integration testing, e2e testing
-    - Security(headers, tips and tricks)
+- PWA
+- Search
+- Testing, visual testing, integration testing, e2e testing
+- Security(headers, tips and tricks)
 
 I'll then cover more deployment strategies:
-      - on firebase hosting
-      - on kubernetes
+
+- on firebase hosting
+- on kubernetes
+
 ## Conclusion
 
 This is the rough idea I have at the moment, things my change, get delayed or move faster but, in the meantime, if there is anything you want me to cover/talk about, give me a shout on Twitter.
