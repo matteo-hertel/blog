@@ -3,7 +3,7 @@ date: "2010-01-20"
 title: "How to add Web Components to any application"
 slug: "how-to-add-web-components-to-any-application"
 description: "After spending a bit of time having the very basics of the blog done, I've not published it and planning for the future"
-image: https://res.cloudinary.com/mhdev/image/upload/c_scale,h_800,w_1552/v1548285001/blog/posts/how-to-add-web-components-to-any-application.jpg 
+image: https://res.cloudinary.com/mhdev/image/upload/f_auto,f_auto,w_900/v1548285001/blog/posts/how-to-add-web-components-to-any-application.jpg 
 tags : [
 "WebComponents",
 "Webpack"
