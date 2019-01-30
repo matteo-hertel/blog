@@ -3,7 +3,8 @@ date: "2010-01-14"
 title: "The Web Strikes Back: Web Components"
 slug: "the-web-strikes-back-web-components"
 description: "An opinionated article about WebComponents and related frameworks, my personal history, the future ahead and a bunch of useful info in case you're interted in checking WebComponents out"
-image: https://res.cloudinary.com/mhdev/image/upload/v1547330779/blog/defaultImages/covers/7.jpg
+image: https://res.cloudinary.com/mhdev/images/f_auto,f_auto,w_900/v1547330779/blog/defaultImages/covers/7/italian-mountains.jpg
+
 tags : [
     "WebComponents",
     "Opinions"

@@ -3,7 +3,7 @@ date: "2010-01-20"
 title: "The Return of the Blog"
 slug: "the-return-of-the-blog"
 description: "After spending a bit of time having the very basics of the blog done, I've not published it and planning for the future"
-image: https://res.cloudinary.com/mhdev/image/upload/c_thumb,w_1400,g_face/v1548013171/blog/posts/the-return-of-the-blog.jpg
+image: https://res.cloudinary.com/mhdev/image/upload/f_auto,f_auto,w_900/v1548013171/blog/posts/the-return-of-the-blog.jpg
 tags : [
     "Opinions"
 ]

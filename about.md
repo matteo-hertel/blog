@@ -3,7 +3,7 @@ date: "2019-01-19"
 title: "About me"
 type: "page"
 description: "👋 My name is Matteo and this is my blog, I'll briefly introduce myself and give you a couple of good resons on why you should read any of the content I'll be posting"
-image: https://res.cloudinary.com/mhdev/image/upload/v1547330779/blog/defaultImages/covers/8.jpg
+image: https://res.cloudinary.com/mhdev/images/f_auto,f_auto,w_900/v1547330779/blog/defaultImages/covers/8/italian-mountains.jpg 
 menu:
   main:
     weight: 111
